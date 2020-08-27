@@ -8,19 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		D449F07324F621AB0088541E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D449F07224F621AB0088541E /* AppDelegate.swift */; };
-		D449F07524F621AB0088541E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D449F07424F621AB0088541E /* ViewController.swift */; };
 		D449F07724F621AD0088541E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D449F07624F621AD0088541E /* Assets.xcassets */; };
 		D449F07A24F621AD0088541E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D449F07824F621AD0088541E /* Main.storyboard */; };
+		D449F08324F626030088541E /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D449F08224F626030088541E /* NamesViewController.swift */; };
+		D449F08524F626160088541E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D449F08424F626160088541E /* PhotoViewController.swift */; };
+		D4AAFCE224F6406C00F4328C /* Rose.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4AAFCDD24F6406C00F4328C /* Rose.jpeg */; };
+		D4AAFCE324F6406C00F4328C /* Sunflower.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4AAFCDE24F6406C00F4328C /* Sunflower.jpeg */; };
+		D4AAFCE524F6406C00F4328C /* Marigold.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4AAFCE024F6406C00F4328C /* Marigold.jpeg */; };
+		D4AAFCE624F6406C00F4328C /* lily.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4AAFCE124F6406C00F4328C /* lily.jpeg */; };
+		D4AAFCE824F642A500F4328C /* Tulip.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4AAFCE724F642A500F4328C /* Tulip.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D449F06F24F621AB0088541E /* PhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D449F07224F621AB0088541E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D449F07424F621AB0088541E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D449F07624F621AD0088541E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D449F07924F621AD0088541E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D449F07B24F621AE0088541E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D449F07C24F621AE0088541E /* PhotoBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoBrowser.entitlements; sourceTree = "<group>"; };
+		D449F08224F626030088541E /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
+		D449F08424F626160088541E /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D4AAFCDD24F6406C00F4328C /* Rose.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rose.jpeg; sourceTree = "<group>"; };
+		D4AAFCDE24F6406C00F4328C /* Sunflower.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunflower.jpeg; sourceTree = "<group>"; };
+		D4AAFCE024F6406C00F4328C /* Marigold.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marigold.jpeg; sourceTree = "<group>"; };
+		D4AAFCE124F6406C00F4328C /* lily.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lily.jpeg; sourceTree = "<group>"; };
+		D4AAFCE724F642A500F4328C /* Tulip.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tulip.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +66,35 @@
 			isa = PBXGroup;
 			children = (
 				D449F07224F621AB0088541E /* AppDelegate.swift */,
-				D449F07424F621AB0088541E /* ViewController.swift */,
+				D449F08624F6261F0088541E /* Controllers */,
 				D449F07624F621AD0088541E /* Assets.xcassets */,
 				D449F07824F621AD0088541E /* Main.storyboard */,
 				D449F07B24F621AE0088541E /* Info.plist */,
+				D4AAFCDC24F6406C00F4328C /* Flowers */,
 				D449F07C24F621AE0088541E /* PhotoBrowser.entitlements */,
 			);
 			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		D449F08624F6261F0088541E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D449F08224F626030088541E /* NamesViewController.swift */,
+				D449F08424F626160088541E /* PhotoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4AAFCDC24F6406C00F4328C /* Flowers */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAFCDD24F6406C00F4328C /* Rose.jpeg */,
+				D4AAFCDE24F6406C00F4328C /* Sunflower.jpeg */,
+				D4AAFCE024F6406C00F4328C /* Marigold.jpeg */,
+				D4AAFCE124F6406C00F4328C /* lily.jpeg */,
+				D4AAFCE724F642A500F4328C /* Tulip.jpeg */,
+			);
+			path = Flowers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,8 +155,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AAFCE624F6406C00F4328C /* lily.jpeg in Resources */,
 				D449F07724F621AD0088541E /* Assets.xcassets in Resources */,
+				D4AAFCE224F6406C00F4328C /* Rose.jpeg in Resources */,
+				D4AAFCE824F642A500F4328C /* Tulip.jpeg in Resources */,
+				D4AAFCE524F6406C00F4328C /* Marigold.jpeg in Resources */,
 				D449F07A24F621AD0088541E /* Main.storyboard in Resources */,
+				D4AAFCE324F6406C00F4328C /* Sunflower.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D449F07524F621AB0088541E /* ViewController.swift in Sources */,
 				D449F07324F621AB0088541E /* AppDelegate.swift in Sources */,
+				D449F08324F626030088541E /* NamesViewController.swift in Sources */,
+				D449F08524F626160088541E /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
